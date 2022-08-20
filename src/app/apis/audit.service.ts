@@ -32,7 +32,7 @@ export class AuditService {
     }
 
     if(filter.searchText){
-      if(filter.searchText){
+      if(filter.searchText && filter.searchText.length > 0){
         params = params.append('searchText',filter.searchText);
       }
     }

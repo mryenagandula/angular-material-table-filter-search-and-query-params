@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular-material-table-with-filter-and-search app is running!');
+    expect(page.getTitleText()).toEqual('angular-material-table-filter-search-and-query-params app is running!');
   });
 
   afterEach(async () => {

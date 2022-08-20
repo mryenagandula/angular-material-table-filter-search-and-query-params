@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-material-table-with-filter-and-search": {
+    "angular-material-table-filter-search-and-query-params": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-material-table-with-filter-and-search",
+            "outputPath": "dist/angular-material-table-filter-search-and-query-params",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-material-table-with-filter-and-search:build"
+            "browserTarget": "angular-material-table-filter-search-and-query-params:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-material-table-with-filter-and-search:build:production"
+              "browserTarget": "angular-material-table-filter-search-and-query-params:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-material-table-with-filter-and-search:build"
+            "browserTarget": "angular-material-table-filter-search-and-query-params:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-material-table-with-filter-and-search:serve"
+            "devServerTarget": "angular-material-table-filter-search-and-query-params:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-material-table-with-filter-and-search:serve:production"
+              "devServerTarget": "angular-material-table-filter-search-and-query-params:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular-material-table-with-filter-and-search"
+  "defaultProject": "angular-material-table-filter-search-and-query-params"
 }

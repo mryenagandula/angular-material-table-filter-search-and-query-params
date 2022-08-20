@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-material-table-with-filter-and-search';
+  title = 'angular-material-table-filter-search-and-query-params';
 }
